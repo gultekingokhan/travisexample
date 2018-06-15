@@ -41,7 +41,7 @@ class travisexampleTests: XCTestCase {
         let a = 5
         let b = 2
         
-        XCTAssertEqual(a-b, 3, "Test failed when subtracting two numbers")
+        XCTAssertEqual(a-b, 2, "Test failed when subtracting two numbers")
     }
     
 }
