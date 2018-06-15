@@ -4,6 +4,6 @@ xcode_project: travisexample.xcodeproj
 
 
 script:
-   - xcodebuild test -project travisexample.xcodeproj -scheme "travisexample" -destination 'platform=iOS Simulator,name=iPhone 8,OS=11.4'
+   - xcodebuild test -project travisexample.xcodeproj -scheme "travisexample" -destination 'platform=iOS Simulator,name=iPhone 8,OS=latest'
 
 
